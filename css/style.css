@@ -21,8 +21,9 @@ body {
 body {
   font-size: 15px;
   line-height: 1.5;
-  color: #333333;
-  background-color: #ffffff;
+  color: #0c0c0c;
+ background-color: #c0bcbc;
+;
   position: relative;
 }
 h1,
@@ -61,16 +62,16 @@ h1 span,
 h2 span,
 h3 span,
 h4 span {
-  color: pink;
+  color: rgb(221, 26, 58);
 }
 .text-colored {
-  color: red;
+  color: rgb(4, 219, 226);
 }
 a {
-  color: red;
+  color: rgb(238, 16, 16);
 }
 a:hover {
-  color: pink;
+  color: rgb(197, 40, 40);
 }
 a:focus,
 a:active {
@@ -111,13 +112,16 @@ blockquote {
 .title {
   margin-top: 0;
 }
-
+.nav navbar-nav navbar-right{
+  font-size:20px;
+}
 /* Layout
 ----------------------------------------------------------------------------- */
 .header {
-  color: #ffffff;
-  background-color: rgba(0, 0, 0, 0.1);
-  padding: 10px 0;
+  color: #070606;
+  background-color: rgba(12, 12, 12, 0.192);
+  padding:  0;
+  margin:0 ;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -129,7 +133,7 @@ blockquote {
   height: 100%;
   min-height: 100%;
   position: relative;
-  color: #fff;
+  color: #0a0a0a;
 }
 .banner-image {
   vertical-align: middle;
@@ -142,7 +146,7 @@ blockquote {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.55);
+  background-color: rgba(0, 0, 0, 0.623);
   content: "";
 }
 .banner-caption {
@@ -152,16 +156,27 @@ blockquote {
   z-index: 2;
 }
 .subfooter {
-  background-color: #fafafa;
+  background-color: #c0bcbc;
   border-top: 1px solid #f3f3f3;
   border-bottom: 1px solid #f3f3f3;
-  padding: 40px 0;
+  padding:80px 0;
+  margin: 0 auto;
+  font-size: 20px;
 }
 .section {
-  background-color: #ffffff;
-  padding: 80px 0;
+  background-color: #c0bcbc;
+  padding: 0;
 }
-
+.classy{
+  background-color: #c0bcbc;
+}
+.main-s{
+  background-color: #c0bcbc;
+}
+.col-md-6{
+  font-size: 20px;
+}
+}
 /* Backgrounds
 ----------------------------------------------------------------------------- */
 .default-bg {
@@ -169,7 +184,7 @@ blockquote {
   color: #ffffff;
 }
 .default-bg.blue {
-  background-color: red;
+background-color: #c0bcbc;
 }
 .translucent-bg {
   color: #ffffff;
@@ -263,7 +278,7 @@ blockquote {
   }
 }
 .space {
-  padding: 20px 0;
+  padding: 0;
 }
 .pr-10 {
   padding-right: 10px;
@@ -715,4 +730,7 @@ textarea {
   filter: alpha(opacity=100);
   -webkit-transform: scale(1);
   transform: scale(1);
+}
+.no-trans{
+  background-color:#8a8484;
 }
