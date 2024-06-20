@@ -21,8 +21,8 @@ body {
 body {
   font-size: 15px;
   line-height: 1.5;
-  color: #0c0c0c;
- background-color: #c0bcbc;
+  color: #f8f6f6;
+ background-color: #030303;
 ;
   position: relative;
 }
@@ -32,7 +32,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #333333;
+  color: #f8f6f6;
 }
 h1 {
   font-size: 38px;
@@ -65,13 +65,14 @@ h4 span {
   color: rgb(221, 26, 58);
 }
 .text-colored {
-  color: rgb(4, 219, 226);
+  color: rgb(241, 33, 19);
 }
 a {
-  color: rgb(238, 16, 16);
+  color: rgb(241, 33, 19);
 }
 a:hover {
-  color: rgb(197, 40, 40);
+  color: rgb(248, 8, 8);
+  
 }
 a:focus,
 a:active {
@@ -119,9 +120,9 @@ blockquote {
 ----------------------------------------------------------------------------- */
 .header {
   color: #070606;
-  background-color: rgba(12, 12, 12, 0.192);
-  padding:  0;
-  margin:0 ;
+  background-color:#333333;
+  padding: 0;
+  margin:  0 ;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -156,7 +157,7 @@ blockquote {
   z-index: 2;
 }
 .subfooter {
-  background-color: #c0bcbc;
+  background-color: #070707;
   border-top: 1px solid #f3f3f3;
   border-bottom: 1px solid #f3f3f3;
   padding:80px 0;
@@ -164,30 +165,30 @@ blockquote {
   font-size: 20px;
 }
 .section {
-  background-color: #c0bcbc;
+  background-color: #070707;
   padding: 0;
 }
 .classy{
-  background-color: #c0bcbc;
+  background-color: #070707;
 }
 .main-s{
-  background-color: #c0bcbc;
+  background-color: #070707;
 }
 .col-md-6{
   font-size: 20px;
 }
-}
+
 /* Backgrounds
 ----------------------------------------------------------------------------- */
 .default-bg {
-  background-color: #222222;
+  background-color: #070707;
   color: #ffffff;
 }
 .default-bg.blue {
-background-color: #c0bcbc;
+background-color: #070707;
 }
 .translucent-bg {
-  color: #ffffff;
+  color: #0e0c0c;
 }
 .default-bg h1,
 .default-bg h2,
@@ -205,11 +206,11 @@ background-color: #c0bcbc;
 }
 .default-bg blockquote footer,
 .translucent-bg blockquote footer {
-  color: #cccccc;
+  color: #070707;
 }
 .default-bg a,
 .translucent-bg a {
-  color: #ffffff;
+  color: #f108bf;
   text-decoration: underline;
 }
 .default-bg a:hover,
@@ -327,12 +328,12 @@ background-color: #c0bcbc;
 }
 .btn-default {
   color: red;
-  border: 1px solid #cccccc;
+  border: 1px solid #0e0d0d;
 }
 .btn-default:hover {
-  color: #ffffff;
-  background-color: pink;
-  border-color: pink;
+  color: #080808;
+  background-color: rgb(252, 248, 248);
+  border-color: rgb(194, 23, 23);
 }
 
 /* Collapse
@@ -404,13 +405,13 @@ background-color: #c0bcbc;
 .nav-pills > li > a:hover {
   background-color: red;
   border-color: red;
-  color: #ffffff;
+  color: #0c0c0c;
 }
 .nav-pills > li > a {
   border-radius: 0;
   padding: 8px 20px;
   border: 1px solid #cacaca;
-  color: #666666;
+  color: #070707;
   font-size: 12px;
   text-transform: uppercase;
   font-weight: 300;
@@ -423,9 +424,10 @@ background-color: #c0bcbc;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px;
+  background-color: #3e3f3f;
 }
 .form-control-feedback {
-  color: #cccccc;
+   color: #443737;
 }
 .has-feedback label.sr-only ~ .form-control-feedback {
   top: 15px;
@@ -442,7 +444,6 @@ textarea {
   border-radius: 0px;
 }
 .modal-header {
-  background-color: red;
   color: #ffffff;
 }
 .modal-header h4 {
@@ -557,7 +558,7 @@ textarea {
 /* Logo, Site Name, Site Slogan
 ---------------------------------- */
 .logo {
-  margin: 10px 10px 10px 0;
+  margin: 20px 10px 10px 0;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -569,7 +570,8 @@ textarea {
   float: left;
 }
 .site-name {
-  font-size: 36px;
+  font-size: 24px;
+  margin: 27px 10px 10px 0;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -602,10 +604,10 @@ textarea {
 .social-links li {
   margin: 10px 25px 10px 0;
   display: inline-block;
-  font-size: 36px;
+  font-size: 24px;
 }
 .social-links li a {
-  color: #333333;
+  color: #bbb9b9;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -613,13 +615,13 @@ textarea {
   transition: all 0.2s ease-in-out;
 }
 .social-links li.twitter a:hover {
-  color: red;
+  color: rgb(219, 208, 208);
 }
 .social-links li.skype a:hover {
-  color: #00aff0;
+  color: #ee0c0c;
 }
 .social-links li.linkedin a:hover {
-  color: #0976b4;
+  color: #da0d0d;
 }
 .social-links li.googleplus a:hover {
   color: #dd4b39;
@@ -663,7 +665,7 @@ textarea {
   margin-bottom: 20px;
 }
 .isotope-item .btn-default {
-  color: #999999;
+  color: #030303;
 }
 .isotope-item .btn-default:hover {
   color: #ffffff;
@@ -732,5 +734,23 @@ textarea {
   transform: scale(1);
 }
 .no-trans{
-  background-color:#8a8484;
+  background-color:#110f0f;
+}
+p{
+  font-size: 18px;
+}
+.project{
+  color: #f8f4f4;
+}
+.modal-body{
+  background-color: #0a0a0ab2;
+}
+.modal-header{
+  background-color:#0a0a0ab2 ;
+}
+.modal-footer{
+  background-color: #0a0a0ab2;
+}
+.modal-title{
+  font-size: 30px;
 }
