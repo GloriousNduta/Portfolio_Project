@@ -39,7 +39,7 @@ I am currently pursuing a bachelor's degree in accountancy while honing my skill
 ## Authors and Acknowledgments
 
 - **Glorious Nduta** - *Initial work* - [Your GitHub](https://github.com/gloriousNduta)[alt](url)
-- Special thanks to [Maggy princess](https://github.com/maggyPrincess)[alt](url) for [guiding me in building my project.].
+- Special thanks to [Princess Maggy](https://github.com/PrincessMaggy)[alt](url) for [guiding me in building my project.].
 
 ## License
 
