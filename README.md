@@ -1,4 +1,54 @@
+# Project Name
 GLORIOUS MUIRURI Portfolio
+
+
+## Description/Overview
+I am currently pursuing a bachelor's degree in accountancy while honing my skills in software development. My journey into tech began with a deep interest in the ever-evolving world of technology, driven by the demand for tech skills and my long-term goal of becoming a software engineer. I balance my day studying accountancy and my nights self-teaching software development. Here, you'll find a showcase of my work, projects, and skills that demonstrate my journey and growth in the field of software development.
+
+
+### Visuals
+
+![Screenshot](images/sc.PNG)(img url)
+![Screenshot](images/weather.PNG)(img url)
+![Screenshot](images/reg.PNG)(img url)
+
+#### Prerequisites
+
+- Language: [e.g., Html,Css, JavaScript]
+- Libraries: [e.g., Bootstrap]
+
+##### Steps
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/gloriousNduta/portfolio_project.git
+    ```
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
+3. Run the project:
+    ```bash
+    npm start
+    ```
+
+## Useful Resources
+
+- [Resource 1](https://opemipocapstone.netlify.app/?authuser=0)[alt](url): Got my inspiration on the paths to follow while building my portfolio projectsince she was a member of the previous cohort and did the same project.
+
+## Authors and Acknowledgments
+
+- **Glorious Nduta** - *Initial work* - [Your GitHub](https://github.com/gloriousNduta)[alt](url)
+- Special thanks to [Maggy princess](https://github.com/maggyPrincess)[alt](url) for [guiding me in building my project.].
+
+## License
+
+This project is licensed under the MIT License.
+
+
+
+
+<!-- GLORIOUS MUIRURI Portfolio
 Welcome to my portfolio! I'm Glorious, a passionate front-end developer with a background in accountancy. Here, you'll find a showcase of my work, projects, and skills that demonstrate my journey and growth in the field of software development.
 
 Table of Contents
@@ -48,6 +98,6 @@ I'm always open to new opportunities and collaborations. Feel free to reach out 
 Email: muiruriglorious@gmail.com
 LinkedIn: https://www.linkedin.com/in/glorious-muiruri-2196a4269/
 GitHub: https://github.com/GloriousNduta/
-Thank you for visiting my portfolio!
+Thank you for visiting my portfolio! -->
 
 
